@@ -372,14 +372,6 @@
         "documentation": {}
     },
     {
-        "label": "app",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "UserRegister",
         "kind": 6,
         "importPath": "auth.routes",
@@ -494,15 +486,6 @@
         "description": "database",
         "peekOfCode": "db = client['template_db']",
         "detail": "database",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "vercel_app",
-        "description": "vercel_app",
-        "peekOfCode": "app = app",
-        "detail": "vercel_app",
         "documentation": {}
     }
 ]
