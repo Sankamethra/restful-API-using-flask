@@ -1,38 +1,32 @@
-from flask import Flask
-from flask_jwt_extended import JWTManager
-from flasgger import Swagger
-from config import Config
-from auth.routes import auth_bp
-from templates.routes import templates_bp
-import logging
+from fastapi import FastAPI, HTTPException, Depends, Header
+from fastapi.middleware.cors import CORSMiddleware
+from typing import Optional, List
+from pydantic import BaseModel
+from datetime import datetime
+import uvicorn
+from auth.routes import auth_router
+from templates.routes import templates_router
 
-def create_app():
-    app = Flask(__name__)
-    
-    # Load configurations
-    app.config.from_object(Config)
-    
-    # Initialize extensions
-    jwt = JWTManager(app)
-    swagger = Swagger(app, config=Config.SWAGGER_CONFIG, template=Config.SWAGGER_TEMPLATE)
-    
-    # Set up logging
-    logging.basicConfig(level=logging.INFO)
-    
-    # Register blueprints
-    app.register_blueprint(auth_bp, url_prefix='/auth')
-    app.register_blueprint(templates_bp, url_prefix='/template')
-    
-    # CORS headers
-    @app.after_request
-    def after_request(response):
-        response.headers.add('Access-Control-Allow-Origin', '*')
-        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-        response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
-        return response
-    
-    return app
+app = FastAPI(
+    title="Email Template API",
+    description="API for managing email templates",
+    version="1.0.0",
+    docs_url="/",  # Serve Swagger UI at root
+    redoc_url="/redoc"  # ReDoc documentation at /redoc
+)
 
-if __name__ == '__main__':
-    app = create_app()
-    app.run(debug=True, port=5000, host='0.0.0.0')
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Include routers
+app.include_router(auth_router, prefix="/auth", tags=["Authentication"])
+app.include_router(templates_router, prefix="/template", tags=["Templates"])
+
+if __name__ == "__main__":
+    uvicorn.run("app:app", host="0.0.0.0", port=5000, reload=True)
