@@ -9,8 +9,4 @@ gunicorn
 dnspython
 flasgger
 flask-cors
-fastapi
-uvicorn
-pydantic
-python-multipart
 certifi
