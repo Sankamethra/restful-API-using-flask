@@ -1,36 +1,30 @@
-from flask_jwt_extended import decode_token
-from jwt.exceptions import InvalidTokenError, ExpiredSignatureError
-from flask_jwt_extended.exceptions import InvalidHeaderError, NoAuthorizationError
-from bson import ObjectId
+from fastapi import HTTPException, Depends
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from jose import JWTError, jwt
 from database import db
-import logging
+from bson import ObjectId
+from config import Config
 
-logger = logging.getLogger(__name__)
+security = HTTPBearer()
 
-def validate_token_and_get_user(token):
+async def validate_token_and_get_user(
+    credentials: HTTPAuthorizationCredentials = Depends(security)
+):
     try:
-        if not token:
-            raise NoAuthorizationError("Authorization header is missing")
-            
-        if not token.startswith('Bearer '):
-            raise InvalidHeaderError("Invalid token format")
-            
-        token = token.split(' ')[1]
-        decoded_token = decode_token(token)
-        user_id = decoded_token['sub']
+        token = credentials.credentials
+        payload = jwt.decode(token, Config.JWT_SECRET_KEY, algorithms=["HS256"])
+        user_id = payload.get("sub")
         
-        user = db.users.find_one({'_id': ObjectId(user_id)})
+        user = db.users.find_one({"_id": ObjectId(user_id)})
         if not user:
-            raise InvalidTokenError("Invalid user token")
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid user token"
+            )
             
         return user_id
-        
-    except ExpiredSignatureError:
-        logger.error("Token has expired")
-        return {'error': 'Token has expired', 'code': 401}
-    except (InvalidTokenError, NoAuthorizationError, InvalidHeaderError) as e:
-        logger.error(f"Token error: {str(e)}")
-        return {'error': str(e), 'code': 401}
-    except Exception as e:
-        logger.error(f"Token validation error: {str(e)}")
-        return {'error': 'Invalid token format', 'code': 401}
+    except JWTError:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid token or expired token"
+        )
