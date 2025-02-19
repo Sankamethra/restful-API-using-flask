@@ -1,0 +1,508 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token_and_get_user",
+        "importPath": "utils.token_validator",
+        "description": "utils.token_validator",
+        "isExtraImport": true,
+        "detail": "utils.token_validator",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "isExtraImport": true,
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "templates_router",
+        "importPath": "templates.routes",
+        "description": "templates.routes",
+        "isExtraImport": true,
+        "detail": "templates.routes",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "certifi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "certifi",
+        "description": "certifi",
+        "detail": "certifi",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegister",
+        "kind": 6,
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "peekOfCode": "class UserRegister(BaseModel):\n    first_name: str\n    last_name: str\n    email: str\n    password: str\nclass UserLogin(BaseModel):\n    email: str\n    password: str\nclass UserResponse(BaseModel):\n    id: str",
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: str\n    password: str\nclass UserResponse(BaseModel):\n    id: str\n    email: str\n    first_name: str\n    last_name: str\nclass LoginResponse(BaseModel):\n    access_token: str",
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: str\n    email: str\n    first_name: str\n    last_name: str\nclass LoginResponse(BaseModel):\n    access_token: str\n    user: UserResponse\n@auth_router.post(\"/register\", status_code=201, response_model=dict)\nasync def register(user: UserRegister):",
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "LoginResponse",
+        "kind": 6,
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "peekOfCode": "class LoginResponse(BaseModel):\n    access_token: str\n    user: UserResponse\n@auth_router.post(\"/register\", status_code=201, response_model=dict)\nasync def register(user: UserRegister):\n    \"\"\"Register a new user\"\"\"\n    try:\n        # Check if email exists\n        if db.users.find_one({\"email\": user.email}):\n            raise HTTPException(",
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "kind": 5,
+        "importPath": "auth.routes",
+        "description": "auth.routes",
+        "peekOfCode": "auth_router = APIRouter()\nclass UserRegister(BaseModel):\n    first_name: str\n    last_name: str\n    email: str\n    password: str\nclass UserLogin(BaseModel):\n    email: str\n    password: str\nclass UserResponse(BaseModel):",
+        "detail": "auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateBase",
+        "kind": 6,
+        "importPath": "templates.routes",
+        "description": "templates.routes",
+        "peekOfCode": "class TemplateBase(BaseModel):\n    template_name: str\n    category: str\n    subject: str\n    body: str\n    variables: Optional[List[str]] = []\nclass TemplateResponse(TemplateBase):\n    id: str\n    user_id: str\n    created_at: datetime",
+        "detail": "templates.routes",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateResponse",
+        "kind": 6,
+        "importPath": "templates.routes",
+        "description": "templates.routes",
+        "peekOfCode": "class TemplateResponse(TemplateBase):\n    id: str\n    user_id: str\n    created_at: datetime\n    updated_at: datetime\n    is_active: bool\n    class Config:\n        orm_mode = True\n@templates_router.get(\"/\", response_model=List[TemplateResponse])\nasync def get_templates(current_user: str = Depends(validate_token_and_get_user)):",
+        "detail": "templates.routes",
+        "documentation": {}
+    },
+    {
+        "label": "templates_router",
+        "kind": 5,
+        "importPath": "templates.routes",
+        "description": "templates.routes",
+        "peekOfCode": "templates_router = APIRouter()\nclass TemplateBase(BaseModel):\n    template_name: str\n    category: str\n    subject: str\n    body: str\n    variables: Optional[List[str]] = []\nclass TemplateResponse(TemplateBase):\n    id: str\n    user_id: str",
+        "detail": "templates.routes",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "utils.token_validator",
+        "description": "utils.token_validator",
+        "peekOfCode": "security = HTTPBearer()\nasync def validate_token_and_get_user(\n    credentials: HTTPAuthorizationCredentials = Depends(security)\n):\n    try:\n        token = credentials.credentials\n        payload = jwt.decode(token, Config.JWT_SECRET_KEY, algorithms=[\"HS256\"])\n        user_id = payload.get(\"sub\")\n        user = db.users.find_one({\"_id\": ObjectId(user_id)})\n        if not user:",
+        "detail": "utils.token_validator",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = FastAPI(\n    title=\"Email Template API\",\n    description=\"API for managing email templates\",\n    version=\"1.0.0\",\n    docs_url=\"/\",  # Serve Swagger UI at root\n    redoc_url=\"/redoc\"  # ReDoc documentation at /redoc\n)\n# Add CORS middleware\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config:\n    JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY', 'your-secret-key')\n    JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=1)\n    JWT_HEADER_TYPE = 'Bearer'\n    JWT_HEADER_NAME = 'Authorization'\n    MONGODB_URI = os.getenv('MONGODB_URI', 'your-mongodb-atlas-uri')\n    # Swagger Configuration\n    SWAGGER_CONFIG = {\n        \"headers\": [],\n        \"specs\": [",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "client = MongoClient(\n    Config.MONGODB_URI,\n    tls=True,\n    tlsCAFile=certifi.where()\n)\ndb = client['template_db']",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "db = client['template_db']",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "vercel_app",
+        "description": "vercel_app",
+        "peekOfCode": "app = app",
+        "detail": "vercel_app",
+        "documentation": {}
+    }
+]
